@@ -9,3 +9,6 @@ Expand database
 NOTES:
 - expand autocomplete functionality
 - smooth dynamic elements in UI
+
+
+LIVE DEMO: https://productsearch.onrender.com/
