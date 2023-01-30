@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
-const mongoString = process.env['mongodb+srv://admin:fnceadmin@fnce-products.k1rzhua.mongodb.net/test']
+const mongoString = 'mongodb+srv://admin:fnceadmin@fnce-products.k1rzhua.mongodb.net/test';
 const path = require('path');
 const http = require('http');
 const PORT = process.env.PORT || 3000;
