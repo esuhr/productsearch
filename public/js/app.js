@@ -34,7 +34,7 @@ socket.on('init', (data) => {
 });
 
 socket.on('searchResult', (data) => {
-  console.log(data)
+  // console.log(data)
   searchResult.innerHTML = '';
   createTable(data);
 });
