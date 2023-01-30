@@ -58,7 +58,7 @@ function createTable (data) {
   var col1 = document.createElement('td');
   var col2 = document.createElement('td');
   var col1text = document.createTextNode('INGREDIENTS');
-  var col2text = document.createTextNode('LACTOSE-FREE');
+  var col2text = document.createTextNode('ECZEMA');
   col1.appendChild(col1text);
   col2.appendChild(col2text);
   tr.appendChild(col1);

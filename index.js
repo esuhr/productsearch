@@ -58,7 +58,7 @@ io.on('connection', (socket) => {
 
     socket.on('search', (data) => {
         var product = products.find(item => item.name.toLowerCase() === data.toLowerCase());
-        var condition = checkLactose(product, ingredients);
+        var condition = checkCondition(product, ingredients);
         socket.emit('searchResult', { product, condition});
     });
 
@@ -89,13 +89,13 @@ function getIngredients (obj) {
     return ingredientStringArr;
 };
 
-function checkLactose (product, ingr) {
-    var conditionName = 'lactose';
+function checkCondition (product, ingr) {
+    var conditionName = 'eczema';
     var conditionArr = [];
-    var lactose = ingr.find(elem => elem.condition === conditionName);
+    var eczema = ingr.find(elem => elem.condition === conditionName);
     for(var i = 0; i < product.ingredients.length; i++) {
 
-        if(lactose.ingredients.includes(product.ingredients[i])) {
+        if(eczema.ingredients.includes(product.ingredients[i])) {
             conditionArr.push('x');
         } else {
             conditionArr.push('o');
