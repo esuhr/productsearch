@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500&display=swap');
+
+:root {
+    margin: 0;
+    padding: 0;
+    --font-primary: "Lucida Grande Regular", serif;
+    --font-secondary: "";
+    --color-primary: "";
+    --color-secondary: "";
+    --color-bg-primary: "";
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: #fffaf4;
+}
+
+table {
+    font-family: 'Inconsolata', Courier, monospace;
+    width: 600px;
+    margin-top: 2rem;
+}
+
+table>:nth-child(2) {
+    font-family: 'Inconsolata', Courier, monospace;
+    font-weight: 200;
+}
+
+table td {
+    padding: 1rem;
+}
+
+table th {
+    font-family: 'Inconsolata', Courier, monospace;
+    font-size: x-large;
+    text-align: center;
+}
+
+#site-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#results-container {
+    font-family: var(--font-primary);
+    font-size: x-large;
+    letter-spacing: .15rem;
+}
