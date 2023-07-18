@@ -11,4 +11,5 @@ NOTES:
 - smooth dynamic elements in UI
 
 
-UPDATED: https://openingredients.com
+UPDATED LIVE DEMO: https://openingredients.com
+*note codebase is not the same
