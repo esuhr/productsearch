@@ -11,4 +11,4 @@ NOTES:
 - smooth dynamic elements in UI
 
 
-LIVE DEMO: https://productsearch.onrender.com/
+UPDATED: https://openingredients.com
